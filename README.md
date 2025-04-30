@@ -29,8 +29,6 @@ The analysis emphasizes identifying distinct customer segments and their shoppin
 - `products.csv`
 - `departments.csv`
 
-> ⚠️ Note: Due to file size limitations, raw and cleaned datasets are **not uploaded** to this repository.
-
 ---
 
 ## 🧰 Tools & Technologies
