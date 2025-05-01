@@ -1,51 +1,54 @@
-# 🛒 Instacart Basket Analysis
+# 🎬 Rockbuster Stealth SQL Analysis
 
-## 📊 Project Overview
+## 📌 Project Summary
 
-This repository contains an exploratory analysis of Instacart's sales data, focusing on uncovering customer purchasing behaviors. As a data analyst for Instacart (an online grocery delivery platform), the objective is to derive actionable insights that support targeted marketing strategies.
+This repository presents an SQL-based analysis of Rockbuster Stealth’s business data. The goal is to support the company’s 2020 strategy by answering key business questions through structured queries and insights.
 
-The analysis emphasizes identifying distinct customer segments and their shopping patterns to help Instacart tailor marketing campaigns, streamline product offerings, and ultimately increase customer retention and revenue.
-
----
-
-## 🔍 Key Business Questions
-
-- Are there particular times of the day when customers spend more money?
-- How can Instacart simplify its pricing strategy?
-- Which departments and products are the most popular?
-- What types of customers exist, and how do their behaviors differ?
-- How frequently do customers return to place new orders?
-- Do ordering habits vary based on loyalty status or region?
-- Is there a connection between age, family size, or income and purchasing behavior?
-- What demographic-based customer profiles emerge from the data?
+Using PostgreSQL and pgAdmin, I explored patterns in customer behavior, rental activity, revenue trends, and geographic distribution. The findings help guide strategic decisions for marketing, product offerings, and customer targeting.
 
 ---
 
-## 📁 Datasets Used
+## 🎯 Key Objectives
 
-- `customers.csv`
-- `orders.csv`
-- `orders_products_prior.csv`
-- `products.csv`
-- `departments.csv`
+- Identify which movies generate the most and least revenue
+- Analyze average rental durations across the catalog
+- Understand customer distribution by country and region
+- Locate high-value customer clusters
+- Compare sales performance between geographic areas
 
 ---
 
-## 🧰 Tools & Technologies
+## 🛠️ Tools & Technologies
 
-This project was completed using **Python**, along with the following libraries:
+- **PostgreSQL** – for data querying and analysis
+- **pgAdmin 4** – SQL management and query execution
+- **Tableau Public** – for creating dashboards and data visualizations
 
-- `pandas` – Data manipulation and analysis
-- `numpy` – Mathematical operations
-- `matplotlib` – Data visualization
-- `seaborn` – Statistical plotting
-- `scipy` – Scientific computing
+---
 
-- ## 📄 Disclaimer
+## 🗃️ Data Overview
 
-Instacart is a real company that has made anonymized data available for educational purposes. However, the business context and project brief used in this analysis were fabricated by **CareerFoundry** as part of a portfolio-building exercise.
+The Rockbuster database includes:
 
-Some writing and structuring assistance was provided by ChatGPT to ensure clarity and professionalism.
+- Film inventory and categories
+- Customer demographics
+- Rental transactions and payment history
+- Store locations and staff
+
+---
+
+## 📈 Skills Demonstrated
+
+- SQL joins, aggregations, subqueries, and CTEs
+- Data cleaning and integrity checks
+- Analytical thinking applied to business strategy
+- Dashboard design and storytelling with Tableau
+
+---
+
+## ⚠️ Disclaimer
+
+This project was completed as part of the CareerFoundry Data Analytics Program. Rockbuster Stealth and the associated data are fictional and provided for educational purposes only.
 
 ---
 
@@ -54,5 +57,3 @@ Some writing and structuring assistance was provided by ChatGPT to ensure clarit
 **Unaza Ali**  
 Aspiring Data Analyst | CareerFoundry Graduate  
 📍 Sacramento, CA
-
----
